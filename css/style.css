@@ -1,0 +1,93 @@
+.row {
+    display: inline;
+}
+
+.row img{
+    height: 300;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("fonts/SF-Pro-Display-Regular.otf");
+}
+body {
+    font-family: "San Francisco", sans-serif;
+    font-size: 1em;
+    overflow: auto;
+}
+#container {
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 30px;
+}
+.img-container {
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.img-flex {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+
+/* FONT STYLINGs */
+    /* http://zuga.net/articles/html-heading-elements/ */        
+    .font_h1 {
+        font-size: 2em;
+    }
+    .font_h2 {
+        font-size: 1.5em;
+    }
+    .font_h3 {
+        font-size: 1.17em;
+    }
+    /* .font_h4 {
+        font-size: 1em;
+    }
+    .font_h5 {
+        font-size: .83em;
+    }
+    .font_h6 {
+        font-size: .67em;
+    } */
+
+    .font_grey {
+        color: #666;
+    }
+    .font_center {
+        text-align: center;
+    }
+    .font_center_grey {
+        text-align: center;
+        color: #666;
+    }
+    .font_center_h3 {
+        /* center, h3 element */
+        text-align: center;
+        font-size: 1.17em;
+    }
+    
+
+
+    /* NTS: maybe figure out necessity of separate italics font file later.
+    #font_italics {
+        font-family: "San Francisco";
+        src: url("fonts/SF-Pro-Display-Regular.otf");
+    }    */ 
+
+
+
+.form-row {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.left-col {
+    width: 150px;
+}
+
+.div-for-margin-bottom {
+    margin-bottom: 100px;
+}

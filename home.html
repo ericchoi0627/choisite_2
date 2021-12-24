@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="GyuMin Eric Choi's personal portfolio. It tells my readers about who I am and what I do: my story, background, character/personality; achievements; ambitions.˙">
+    <title> Home – GyuMin Eric Choi's Website</title>
+        <!--CUSTOM CSS-->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- NAVBAR -->
+        <link href="css/navbar.css" rel="stylesheet">
+        <!--FLAGS-->
+        <link href="css/flag.css" rel="stylesheet">
+    <style>
+
+        #profile {
+            float: left;
+            border-radius: 10%;
+            border: solid 1px #ccc;
+            margin-right: 30px;
+        }
+        #about, #work, #gallery, #blog, #contact {
+            margin-bottom: 100px;
+        }
+
+        video, audio {
+			max-width: 100%;
+		}
+		iframe {
+            /* square on namu, or YT dimensions. */
+			width: 500px;
+			height: 282px;
+			border: none;
+		}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <a id="img_logo_href" href="home.html"><img id="img_logo" src="img/logo.PNG" alt="Choi Logo"></a>
+            <div id="buttons">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div> <!-- #buttons -->
+        </div> <!-- #navbar -->
+    </header>
+
+    
+    <div id="container">
+        <div class="font_center_h3"><p>최규민입니다 | I'm Eric Choi | 我是崔圭玟 | Soy Eric | Je suis Eric</p></div>
+
+        <div id="about">
+            <img id="profile" src="img/profile.jpg" alt="Choi Home Profile Picture" height=200>
+            <br>
+            <p>I am a Korean expat with a British and Chinese background who is currently studying in the US.</p>
+            <p>I am a freshman at university pursuing a degree in Communication and Political Science on the Pre-Law track. I am passionate about business/finance, marketing, management, data science, video production/editing, entrepreneurship, and personal branding.</p> 
+            <p class="font_grey">See more on the <a href="about.html"><em>About</em></a> section of my website...</p>
+        </div> <!-- #about -->
+
+        <div id="work">
+            <h2>WORK</h2>
+            <p>Check out my YouTube channel:</p>
+            <iframe src="https://www.youtube.com/embed/SpCeyQhj7_Q" title="YouTube video player" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/56ofV-JEP5U" title="YouTube video player" allowfullscreen></iframe> -->
+            <iframe src="https://www.youtube.com/embed/QEA8Po3U4c0" title="YouTube video player" allowfullscreen></iframe>
+            <p class="font_grey">See more on the <a href="work.html"><em>Work</em></a> section of my website...</p>
+        </div> <!-- #work -->
+        
+
+        <div id="gallery">
+            <h2>GALLERY</h2>
+            <h3>Featured Portraits</h3>
+            <div class="img-flex">
+                <div class="img-container">
+                    <img src="img/portraits/p_jc.JPG" alt="Choi Portrait by Jackie Chen" height=300>
+                    <br>courtesy of Jackie Chen 
+                </div> <!-- .img-container -->
+                <div class="img-container">
+                    <img src="img/portraits/p_hk.JPG" alt="Choi Portrait by Henry Kim" height=300> 
+                    <br>courtesy of Henry Kim
+                </div> <!-- .img-container -->
+                <div class="img-container">
+                    <img src="img/portraits/p_tf.JPG" alt="Choi Portrait by Takanori Fukui" height=300>
+                    <br>courtesy of Takanori Fukui
+                </div> <!-- .img-container -->
+                <div class="img-container">
+                    <img src="img/portraits/p_ty.png" alt="Choi Portrait by Thalia Youn" height=300> 
+                    <br>courtesy of Thalia Youn
+                </div> <!-- .img-container -->
+            </div>
+            <p class="font_grey">See more on the <a href="gallery.html"><em>Gallery</em></a> section of my website...</p>
+        </div> <!-- #gallery -->
+
+        <div id="blog">
+            <h2>BLOG</h2>
+                <p>Final entry. I completed the development of my website.</p>
+                <p>Dec 3, 2021</p>
+                <br>
+                <p>Second entry. I created the "about" page for my website.</p>
+                <p>Nov 21, 2021</p>
+                <br>
+                <p>First entry. I created the homepage for my website.</p>
+                <p>Nov 14, 2021</p>
+                <p class="font_grey">See more on the <a href="blog.html"><em>Blog</em></a> section of my website...</p>
+        </div> <!-- #blog -->
+
+        <div id="contact">
+            <h2>CONTACT</h2>
+            <p>My primary mode of contact is through email and Instagram.</p>
+            <p>Email: <a href="mailto:Eric.GyuMin.Choi@gmail.com">Eric.GyuMin.Choi@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/gyuminericchoi/"><em>@gyuminericchoi</em></a></p>
+
+            <br><br>
+            <h3>Website Feedback</h3>
+            I would appreciate any feedback on improving my website.
+                <form action="confirmation.html">
+                    <div class="form-row">
+                        <div class="left-col">
+                            <label for="name-id">Name:</label>
+                        </div> <!-- .left-col -->
+                        <input type="text" id="name-id" placeholder="John Doe/Anonymous">
+                    </div> <!-- .form-row -->
+
+                    <div class="form-row">
+                        <div class="left-col">
+                            Point of contact
+                        </div> <!-- .left-col -->
+                        <label>
+                            <input type="radio" name="contact">
+                            Email
+                        </label>
+                        <label>
+                            <input type="radio" name="contact">
+                            Phone number
+                        </label>
+                        <label>
+                            <input type="radio" name="contact">
+                            Social media
+                        </label>
+                    </div> <!-- .form-row -->
+
+                    <div class="form-row">
+                        <div class="left-col">
+                            <label for="email-id">Contact:</label>
+                        </div> <!-- .left-col -->
+                        <input type="email" id="email-id" placeholder="johndoe@gmail.com       OR @instagram">
+                    </div> <!-- .form-row -->
+
+                    <div class="form-row">
+                        <div class="left-col">
+                            <label for="msg">Message:</label>
+                        </div> <!-- .left-col -->
+                        <textarea id="msg" placeholder="I think..."></textarea>
+                    </div> <!-- .form-row -->
+
+                    <div class="form-row">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </div> <!-- .form-row -->
+                </form>
+
+                <p class="font_grey">See more on the <a href="contact.html"><em>Contact</em></a> section of my website...</p>
+
+        </div> <!-- #contact -->
+
+        <p class="font_grey"><em>ver. 2021/12/03 (most recent)</em></p>
+
+        <div class="font_center_grey">GyuMin Eric Choi 최규민 崔圭玟 © 2021</div>
+    </div> <!-- #img-flex -->
+</body>
+
+</html>
