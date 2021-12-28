@@ -1,21 +1,18 @@
-body {
-    line-height: 2;
+html {
+    font-family: "San Francisco", sans-serif;
 }
-
 .row {
     display: inline;
 }
-
 .row img{
     height: 300;
 }
-
 @font-face {
     font-family: "San Francisco";
-    src: url("fonts/SF-Pro-Display-Regular.otf");
+    src: url("fonts/SF-Pro-Display-Regular.otf") format("opentype");
 }
 body {
-    font-family: "San Francisco", sans-serif;
+    line-height: 2;
     font-size: 1em;
     overflow: auto;
 }
