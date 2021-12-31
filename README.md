@@ -1,3 +1,3 @@
-# choisite_2
+# gyuminericchoi.github.io/ (old name: choisite_2)
 New updated version of my website.
-https://ericchoi0627.github.io/choisite_2/
+https://gyuminericchoi.github.io/
